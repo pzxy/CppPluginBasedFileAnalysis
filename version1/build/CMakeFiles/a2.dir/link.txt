@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -shared -Wl,-soname,liba2.so -o /home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/plugin/liba2.so CMakeFiles/a2.dir/a2.cpp.o 
