@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/SearchPlugin.cpp.o -o main  -ldl 

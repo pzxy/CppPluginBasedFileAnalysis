@@ -16,7 +16,7 @@ int main() {
         return 0;
     }
 
-    for (auto i = 0; i < PluginName.size(); i++) {
+    for (int i = 0; i < PluginName.size(); i++) {
         void* handle =
             dlopen(PluginName[i].c_str(), RTLD_LAZY);  // open all lib.so
         if (0 == handle) {

@@ -1,10 +1,10 @@
 # $ cmake --version
 cmake_minimum_required(VERSION 3.0)
 
-# SET(CMAKE_C_COMPILER /usr/bin/gcc)
-# SET(CMAKE_CXX_COMPILER /usr/bin/g++)
-SET(CMAKE_C_COMPILER /usr/bin/clang)
-SET(CMAKE_CXX_COMPILER /usr/bin/clang++)
+SET(CMAKE_C_COMPILER /usr/bin/gcc)
+SET(CMAKE_CXX_COMPILER /usr/bin/g++)
+# SET(CMAKE_C_COMPILER /usr/bin/clang)
+# SET(CMAKE_CXX_COMPILER /usr/bin/clang++)
 
 # Set the project name
 project(version2)

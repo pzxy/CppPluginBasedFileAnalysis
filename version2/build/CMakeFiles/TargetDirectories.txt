@@ -1,0 +1,5 @@
+/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version2/build/CMakeFiles/a1.dir
+/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version2/build/CMakeFiles/a2.dir
+/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version2/build/CMakeFiles/main.dir
+/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version2/build/CMakeFiles/edit_cache.dir
+/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version2/build/CMakeFiles/rebuild_cache.dir
