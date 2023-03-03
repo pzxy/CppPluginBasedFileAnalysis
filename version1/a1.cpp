@@ -3,8 +3,6 @@
 #include "a.h"
 
 using namespace std;
-extern "C" void say_hello();
-void say_hello()
-{
+extern "C" void say_hello(){
     cout << "say hello" << endl;
 }

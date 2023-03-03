@@ -8,10 +8,10 @@ edition = "2021"
 [dependencies]
 libc = "0.2"
 
-[build-dependencies]
-bindgen = "0.64"
-cc = "1.0"
+# [build-dependencies]
+# bindgen = "0.64"
+# cc = "1.0"
 
 [lib]
 crate-type = ["cdylib"]
-name = "a3"
+name = "auditxplugin"
