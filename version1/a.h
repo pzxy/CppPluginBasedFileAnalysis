@@ -1,1 +1,1 @@
-// extern "C" void print();
+extern "C" void print();

@@ -4,4 +4,4 @@
 
 using namespace std;
 
-void print() { cout << "Hello China" << endl; }
+void print2() { cout << "Hello China" << endl; }

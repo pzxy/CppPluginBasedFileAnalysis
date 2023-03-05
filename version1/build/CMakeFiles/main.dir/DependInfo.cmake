@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/build/CMakeFiles/a1.dir/DependInfo.cmake"
+  "/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/build/CMakeFiles/a2.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

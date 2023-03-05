@@ -8,25 +8,26 @@ using namespace std;
 
 int main() {
 	// void* handle = dlopen("./liba1.so", RTLD_LAZY);  // open liba1.so or liba2.so 当前目录测试，请使用makefile
-    void* handle = dlopen("../plugin/libauditxplugin.so", RTLD_LAZY);  // open liba1.so or liba2.so plugin测试，请使用cmake
-    if (0 == handle) {
-        cout << "dlopen error" << endl;
-        return 0;
-    }
+    // void* handle = dlopen("../demo1/target/debug/liba3.so", RTLD_LAZY);  // open liba1.so or liba2.so plugin测试，请使用cmake
+    // if (0 == handle) {
+    //     cout << "dlopen error" << endl;
+    //     return 0;
+    // }
 
-    typedef void (*Func)();
+    // typedef void (*Func)();
 
-    Func print1 = (Func)dlsym(handle, "print");
+    // Func print1 = (Func)dlsym(handle, "print");
 
-    if (0 == print1) {
-        cout << "print1 error" << endl;
-        char* str = dlerror();
-        cout << str << endl;
-    }
+    // if (0 == print1) {
+    //     cout << "print1 error" << endl;
+    //     char* str = dlerror();
+    //     cout << str << endl;
+    // }
 
-    (*print1)();
+    // (*print1)();
 
-    dlclose(handle);
+    // dlclose(handle);
+    print();
 
     return 0;
 }

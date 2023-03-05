@@ -71,4 +71,5 @@ CMakeFiles/a1.dir/a1.cpp.o: \
  /usr/include/c++/4.8.2/bits/basic_ios.tcc \
  /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
  /usr/include/c++/4.8.2/bits/istream.tcc \
+ /home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/a2.cpp \
  /home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/a.h

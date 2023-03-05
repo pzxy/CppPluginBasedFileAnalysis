@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/plugin/liba2.a CMakeFiles/a2.dir/a2.cpp.o
-/usr/bin/ranlib /home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/plugin/liba2.a
+/usr/bin/ar qc liba2.a CMakeFiles/a2.dir/a2.cpp.o
+/usr/bin/ranlib liba2.a

@@ -13,5 +13,5 @@ libc = "0.2"
 # cc = "1.0"
 
 [lib]
-crate-type = ["cdylib"]
-name = "auditxplugin"
+crate-type = ["staticlib"]
+name = "a3"

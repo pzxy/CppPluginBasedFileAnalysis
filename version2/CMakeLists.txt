@@ -15,7 +15,7 @@ project(version2)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/plugin)
 # 生成库，动态库是SHARED，静态库是STATIC
 add_library(a1 SHARED a1.cpp)
-add_library(a2 SHARED a2.cpp)  
+# add_library(a2 SHARED a2.cpp)  
 
 # Add an executable
 add_executable(main main.cpp SearchPlugin.cpp)

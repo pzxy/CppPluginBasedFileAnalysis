@@ -1,1 +1,1 @@
-/usr/bin/g++ -rdynamic CMakeFiles/main.dir/main.cpp.o -o main  -ldl 
+/usr/bin/g++ -rdynamic CMakeFiles/main.dir/main.cpp.o -o main  liba1.a liba2.a -la3 

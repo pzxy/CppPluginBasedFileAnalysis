@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/plugin/liba2.a"
-  "/home/kwin/workspace/myself/CppPluginBasedFileAnalysis/version1/plugin/liba2.pdb"
   "CMakeFiles/a2.dir/a2.cpp.o"
   "CMakeFiles/a2.dir/a2.cpp.o.d"
+  "liba2.a"
+  "liba2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

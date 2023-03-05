@@ -6,24 +6,24 @@
 // #![allow(deref_nullptr)]
 
 extern crate libc;
-
+// 这个加不加都行，都能链接到。但是如果加了，build.rs中就要写了cc代码了，不写就有问题。但是反过来 build.rs可以写cc代码，没要求这个宏一定要加。
 // #[link(name = "a1",kind = "static")]
-// extern "C" {
-//     pub fn say_hello();
-// }
+extern "C" {
+    pub fn say_hello();
+}
 
-// pub fn my_say_hello(){
-//     unsafe{
-//         say_hello();
-//     }
-// }
+pub fn my_say_hello(){
+    unsafe{
+        say_hello();
+    }
+}
 
 // cbindgen --config cbindgen.toml --output my_header.h
 // 使用 no_mangle 禁止函数名改编，这样其它语言可以通过 C ABI 调用这个函数
 #[no_mangle]
 pub extern "C" fn print() {
     println!("is different");
-    // my_say_hello();
+    my_say_hello();
 }
 
 
